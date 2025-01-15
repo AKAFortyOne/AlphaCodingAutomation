@@ -1,32 +1,51 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uast="clr-namespace:UiPath.Activities.System.Text;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
-      <x:String>System.Activities</x:String>
-      <x:String>System.Activities.Statements</x:String>
-      <x:String>System.Activities.Expressions</x:String>
-      <x:String>System.Activities.Validation</x:String>
-      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
       <x:String>Microsoft.VisualBasic</x:String>
       <x:String>Microsoft.VisualBasic.Activities</x:String>
       <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
       <x:String>System.Collections</x:String>
       <x:String>System.Collections.Generic</x:String>
       <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.ComponentModel</x:String>
       <x:String>System.Data</x:String>
       <x:String>System.Diagnostics</x:String>
       <x:String>System.Drawing</x:String>
       <x:String>System.IO</x:String>
       <x:String>System.Linq</x:String>
+      <x:String>System.Linq.Expressions</x:String>
       <x:String>System.Net.Mail</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Windows.Markup</x:String>
       <x:String>System.Xml</x:String>
       <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Text</x:String>
       <x:String>UiPath.Core</x:String>
       <x:String>UiPath.Core.Activities</x:String>
-      <x:String>System.Windows.Markup</x:String>
-      <x:String>GlobalVariablesNamespace</x:String>
-      <x:String>GlobalConstantsNamespace</x:String>
-      <x:String>System.Linq.Expressions</x:String>
-      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -38,7 +57,10 @@
       <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
       <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
       <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
       <AssemblyReference>System.Console</AssemblyReference>
@@ -50,6 +72,7 @@
       <AssemblyReference>System.Drawing.Common</AssemblyReference>
       <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
       <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Net.Mail</AssemblyReference>
@@ -58,31 +81,515 @@
       <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
       <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
       <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
       <AssemblyReference>System.Security.Permissions</AssemblyReference>
       <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
       <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1293,776.76" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="2204,6548" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="序列" sap:VirtualizedContainerService.HintSize="450,193" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="2204,6525" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="UserAccount" />
+        <Variable x:TypeArguments="x:String" Name="StartURL" />
+      </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="消息框" sap:VirtualizedContainerService.HintSize="416,110" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hello Robot&quot;]" />
+      <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="2170,279" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Please input your alphacoding account:" Title="Account Get">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">[UserAccount]</OutArgument>
+        </ui:InputDialog.Result>
+      </ui:InputDialog>
+      <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="2170,279" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Please input the automation start URL:" Title="Start Position">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">[StartURL]</OutArgument>
+        </ui:InputDialog.Result>
+      </ui:InputDialog>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Open Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="2170,5884" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="a25149ec-5e96-4936-817a-775e7d03ec5d" Version="V2" WindowResize="Maximize">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="2136,5642" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''密码登录''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="2102,229" sap2010:WorkflowViewState.IdRef="NClick_68" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/login" DesignTimeRectangle="348, 420, 64, 24" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='n-tabs-tab__label' aaname='密码登录' check:innerText='密码登录' /&gt;" Guid="04843ff8-c306-44e7-b949-225eb3f14ca0" InformativeScreenshot="e482528f7744df4790cfdee7af818a15.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Account" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="2102,292" sap2010:WorkflowViewState.IdRef="NTypeInto_19" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Text="[UserAccount]" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/login" CVScreenId="fc6db02d-3710-4c69-b77c-e9575225dd82" CvElementArea="348, 468, 281, 36" CvType="InputBox" DesignTimeRectangle="360, 470, 256, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='n-input__input-el' placeholder='请输入用户名' aaname='' /&gt;" Guid="6eea017f-0b65-4264-9854-ecff4721b356" InformativeScreenshot="cc3f9c31448ee5c8cdeb0cfc63887eea.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="fc6db02d-3710-4c69-b77c-e9575225dd82" CvTextArea="447, 421, 66, 19" CvTextArgument="Rklae5" CvType="Text" DesignTimeRectangle="448, 420, 64, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='微信登录' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='微信登录' tag='SPAN' type='' class='n-tabs-tab__label' check:innerText='微信登录' /&gt;" Guid="2407b328-02a0-4492-b92d-ebc51a7b197e" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type password" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="2102,292" sap2010:WorkflowViewState.IdRef="NTypeInto_20" IsPassword="True" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Text="123456" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/login" CVScreenId="fc6db02d-3710-4c69-b77c-e9575225dd82" CvElementArea="347, 527, 282, 36" CvType="InputBox" DesignTimeRectangle="360, 528, 236, 34" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='n-input__input-el' placeholder='请输入密码' aaname='' /&gt;" Guid="c3b66928-a2c0-4f7a-9bea-764f2d188d80" InformativeScreenshot="05047ad24b89f4f5f6de74f875e10f1d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''登录''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="2102,229" sap2010:WorkflowViewState.IdRef="NClick_69" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/login" CVScreenId="fc6db02d-3710-4c69-b77c-e9575225dd82" CvElementArea="347, 622, 283, 37" CvType="Button" DesignTimeRectangle="348, 624, 280, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='__button-dtqfrq-ilmmp n-button n-button--primary-type n-button--medium-type n-button--block' aaname=' 登录 ' check:innerText='登录' /&gt;" Guid="7ce0cb88-ed5d-4c5a-8683-020c3621d234" InformativeScreenshot="1e3a3cf34963410edc9052f498099dac.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="fc6db02d-3710-4c69-b77c-e9575225dd82" CvElementArea="347, 622, 283, 37" CvType="Button" DesignTimeRectangle="474, 634, 28, 14" ElementType="Text" FullSelectorArgument="&lt;webctrl class='n-button__content' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='n-button__content' tag='SPAN' type='' aaname=' 登录 ' check:innerText='登录' /&gt;" Guid="f6107260-af30-442e-aa1c-6f904c9b4539" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NGoToUrl DisplayName="Go To URL" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="2102,116" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[StartURL]" Version="V4" />
+              <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Classes Loop" sap:VirtualizedContainerService.HintSize="2102,4422" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+                <ui:InterruptibleDoWhile.Body>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="2100,4297" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NCheckState DisplayName="Whether or not be video or text" sap:VirtualizedContainerService.HintSize="2066,4237" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Timeout="0.4" Version="V4">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Is Video or Text" sap:VirtualizedContainerService.HintSize="450,284" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '下一项'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c52411299f6ecd1de662" CVScreenId="14a1c5af-adfb-4373-b4f1-908039b6d659" ContentHash="wXEDob4SnU6kLcwZQ2es4w" DesignTimeRectangle="1317, 733, 58, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl aaname='下一项 ' parentid='app' tag='DIV' /&gt;" Guid="b0cd97c4-6eab-41ab-92fb-9fe7e3278ead" ImageBase64="" InformativeScreenshot="efb272285a216bfd4984d4d629264a22.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/AFU9_8OsYUS7-S3BwmZldg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive" />
+                            </uix:NClick.Target>
+                            <uix:NClick.VerifyOptions>
+                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionOptions.Retry>
+                                <uix:VerifyExecutionOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionOptions.Timeout>
+                              </uix:VerifyExecutionOptions>
+                            </uix:NClick.VerifyOptions>
+                          </uix:NClick>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Is Program" sap:VirtualizedContainerService.HintSize="1562,3993" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="x:String" Name="Codes" />
+                            <Variable x:TypeArguments="x:Boolean" Default="False" Name="ExitLoop" />
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Jump Right Part" sap:VirtualizedContainerService.HintSize="1528,1614" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_2">
+                            <ui:InterruptibleDoWhile.Body>
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1526,1482" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NCheckState DisplayName="Check App State '提交'" sap:VirtualizedContainerService.HintSize="1492,537" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Timeout="0.4" Version="V4">
+                                  <uix:NCheckState.IfExists>
+                                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,284" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '提交'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Version="V4">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f8425315ecd937bfb77a88d" CVScreenId="5a4334f7-eacd-41a2-b9e0-aa61c83dbf60" ContentHash="MHjWdfON0km-mSvfhvbseg" CvElementArea="1267, 989, 77, 41" CvType="Button" DesignTimeRectangle="1285, 999, 40, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='提交' class='px-1.5' parentid='app' tag='SPAN' /&gt;" Guid="e0039af6-8895-4f84-8ee0-acda16eaad86" ImageBase64="" InformativeScreenshot="07cde005e91623c89cc4053d9f74596e.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/ybf705hybU2WVKOcBEdueg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                <uix:Target CVScreenId="5a4334f7-eacd-41a2-b9e0-aa61c83dbf60" CvElementArea="1267, 989, 77, 41" CvType="Button" DesignTimeRectangle="1268, 990, 74, 38" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='提交' parentid='app' tag='BUTTON' type='button' /&gt;" Guid="e77356f3-8176-474d-ad2d-e10fb9f30b2e" SearchSteps="Selector, CV" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NClick.Target>
+                                        <uix:NClick.VerifyOptions>
+                                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                            <uix:VerifyExecutionOptions.Retry>
+                                              <InArgument x:TypeArguments="x:Boolean" />
+                                            </uix:VerifyExecutionOptions.Retry>
+                                            <uix:VerifyExecutionOptions.Timeout>
+                                              <InArgument x:TypeArguments="x:Double" />
+                                            </uix:VerifyExecutionOptions.Timeout>
+                                          </uix:VerifyExecutionOptions>
+                                        </uix:NClick.VerifyOptions>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </uix:NClick>
+                                    </Sequence>
+                                  </uix:NCheckState.IfExists>
+                                  <uix:NCheckState.IfNotExists>
+                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,228" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <Assign sap:VirtualizedContainerService.HintSize="434,116" sap2010:WorkflowViewState.IdRef="Assign_1">
+                                        <Assign.To>
+                                          <OutArgument x:TypeArguments="x:Boolean">[ExitLoop]</OutArgument>
+                                        </Assign.To>
+                                        <Assign.Value>
+                                          <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                                        </Assign.Value>
+                                      </Assign>
+                                      <ui:Break sap:VirtualizedContainerService.HintSize="434,50" sap2010:WorkflowViewState.IdRef="Break_11" />
+                                    </Sequence>
+                                  </uix:NCheckState.IfNotExists>
+                                  <uix:NCheckState.Target>
+                                    <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f8425315ecd937bfb77a88d" CVScreenId="5a4334f7-eacd-41a2-b9e0-aa61c83dbf60" ContentHash="MHjWdfON0km-mSvfhvbseg" CvElementArea="1267, 989, 77, 41" CvType="Button" DesignTimeRectangle="1285, 999, 40, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='提交' class='px-1.5' parentid='app' tag='SPAN' /&gt;" Guid="e0039af6-8895-4f84-8ee0-acda16eaad86" ImageBase64="" InformativeScreenshot="07cde005e91623c89cc4053d9f74596e.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/ybf705hybU2WVKOcBEdueg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CVScreenId="5a4334f7-eacd-41a2-b9e0-aa61c83dbf60" CvElementArea="1267, 989, 77, 41" CvType="Button" DesignTimeRectangle="1268, 990, 74, 38" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='提交' parentid='app' tag='BUTTON' type='button' /&gt;" Guid="e77356f3-8176-474d-ad2d-e10fb9f30b2e" SearchSteps="Selector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NCheckState.Target>
+                                </uix:NCheckState>
+                                <uix:NCheckState DisplayName="Check App State 'I'" sap:VirtualizedContainerService.HintSize="1492,885" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Timeout="0.6" Version="V4">
+                                  <uix:NCheckState.IfExists>
+                                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,337" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_53" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Version="V4">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c55ca7b51f6ee3920117" CVScreenId="f93cbca8-ed59-4216-b9c5-d69a76feb8eb" ContentHash="DM_kKSxqp0i5uYvC4Yz14Q" CvElementArea="1254, 275, 23, 23" CvType="CloseButton" DesignTimeRectangle="1260, 277, 12, 21" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' parentid='el-id-8904-6' tag='I' class='far fa-times inline text-center text-xl text-gray-600' aaname='' /&gt;" Guid="4c2bf24f-95b8-4e59-a628-55efd89ae639" InformativeScreenshot="afce7580b78d29fe89b51c3d872bbdb2.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/XD6Pqiq48EixRQL-srx82Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                <uix:Target CVScreenId="f93cbca8-ed59-4216-b9c5-d69a76feb8eb" CvElementArea="661, 274, 26, 25" CvTextArea="671, 281, 5, 12" CvType="Icon" DesignTimeRectangle="662, 275, 24, 25" Guid="dc9f377e-c257-4935-bf94-8f0aaabd40db" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGbSURBVEhLtZW/asJQFMbdOrpl7ObYN3DrGzhm6xv4Bh1diijBikNwCmRwUHAJTtKtFMHgEqRDcHEo4lAEuefmKzEN+XNvcjOY4Vvud8753X/n3gbYEXWqkR+4t6oDLh6CHzfSReIXqBQQnFagRRts0AB7y2nwCLbog5/EvAoAD9x5BuunChoa2LQDmrbAjIdkvK+BOUsEQo0iwNUD2c1U8gz8V0zExc1OwjYRXMW4HMADj4sbOkix/FDByQQZMcQSVpIBBFs9Chx2wM+5Qv47aKaDZl2Q72dBZws0DCFN0DbrpQAfoPF/0C5bPBR3Wsm+O5+CH+xeIm/cBZcC9t0owOxlAqoCwFyQGfoaaC8B8NVTlLx2JclHBF+dBFAUs25H/iqZQAKwRXpGmwRAG4kfKt4F2yoCtEAHSWJVwOFVBShZwaEHNtLARk+gb4kfqnQFijMA88E9C9xzhbseq/QMlLcoTi6chOIWKftgnnp/5kvBV/eBopNv3TrRwCa63FN3cqia36Kb6n1NY9X5H6RU448mUR1/8j1UO+APlhxlg7gYEkgAAAAASUVORK5CYII=" SearchSteps="CV" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NClick.Target>
+                                        <uix:NClick.VerifyOptions>
+                                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                            <uix:VerifyExecutionOptions.Retry>
+                                              <InArgument x:TypeArguments="x:Boolean" />
+                                            </uix:VerifyExecutionOptions.Retry>
+                                            <uix:VerifyExecutionOptions.Timeout>
+                                              <InArgument x:TypeArguments="x:Double" />
+                                            </uix:VerifyExecutionOptions.Timeout>
+                                          </uix:VerifyExecutionOptions>
+                                        </uix:NClick.VerifyOptions>
+                                      </uix:NClick>
+                                      <ui:Break sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="Break_9" />
+                                    </Sequence>
+                                  </uix:NCheckState.IfExists>
+                                  <uix:NCheckState.IfNotExists>
+                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="988,641" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NCheckState DisplayName="Check App State '下一项(1)'" sap:VirtualizedContainerService.HintSize="954,579" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Timeout="0.4" Version="V4">
+                                        <uix:NCheckState.IfExists>
+                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,337" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '下一项(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_47" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Version="V4">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/v9o1l2x9s0y4x8k171ob" CVScreenId="05072058-99b0-450c-bc7c-11ea794548f9" ContentHash="QbS-s1qbsUCCUoYUsvOlvA" CvElementArea="1142, 408, 103, 43" CvTextArea="1161, 422, 44, 15" CvTextArgument="T-JH" CvType="Button" DesignTimeRectangle="1145, 411, 98, 38" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='el-id-8256-11' tag='BUTTON' type='button' class='font-medium whitespace-nowrap  rounded border focus:ring-2 focus:outline-none  text-blue-700 border-transparent bg-blue-100 hover:bg-blue-200 focus:ring-primary-500  focus:ring-offset-1 px-4 py-2 text-sm inline-flex items-center justify-center' aaname='下一项 ' check:innerText='下一项' /&gt;" Guid="e0393bf6-2dc7-4797-b5c3-9e8cee313d79" InformativeScreenshot="4daa62721989779b29f7f053de363170.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/BAbYRgkeMkuvOoqgoRJEuA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                              </uix:NClick.Target>
+                                              <uix:NClick.VerifyOptions>
+                                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                  <uix:VerifyExecutionOptions.Retry>
+                                                    <InArgument x:TypeArguments="x:Boolean" />
+                                                  </uix:VerifyExecutionOptions.Retry>
+                                                  <uix:VerifyExecutionOptions.Timeout>
+                                                    <InArgument x:TypeArguments="x:Double" />
+                                                  </uix:VerifyExecutionOptions.Timeout>
+                                                </uix:VerifyExecutionOptions>
+                                              </uix:NClick.VerifyOptions>
+                                            </uix:NClick>
+                                            <ui:Continue sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="Continue_1" />
+                                          </Sequence>
+                                        </uix:NCheckState.IfExists>
+                                        <uix:NCheckState.IfNotExists>
+                                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,112" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:Break sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="Break_10" />
+                                          </Sequence>
+                                        </uix:NCheckState.IfNotExists>
+                                        <uix:NCheckState.Target>
+                                          <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/v9o1l2x9s0y4x8k171ob" CVScreenId="05072058-99b0-450c-bc7c-11ea794548f9" ContentHash="QbS-s1qbsUCCUoYUsvOlvA" CvElementArea="1142, 408, 103, 43" CvTextArea="1161, 422, 44, 15" CvTextArgument="T-JH" CvType="Button" DesignTimeRectangle="1145, 411, 98, 38" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='el-id-8256-11' tag='BUTTON' type='button' class='font-medium whitespace-nowrap  rounded border focus:ring-2 focus:outline-none  text-blue-700 border-transparent bg-blue-100 hover:bg-blue-200 focus:ring-primary-500  focus:ring-offset-1 px-4 py-2 text-sm inline-flex items-center justify-center' aaname='下一项 ' check:innerText='下一项' /&gt;" Guid="e0393bf6-2dc7-4797-b5c3-9e8cee313d79" InformativeScreenshot="4daa62721989779b29f7f053de363170.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/BAbYRgkeMkuvOoqgoRJEuA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                        </uix:NCheckState.Target>
+                                      </uix:NCheckState>
+                                    </Sequence>
+                                  </uix:NCheckState.IfNotExists>
+                                  <uix:NCheckState.Target>
+                                    <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c55ca7b51f6ee3920117" CVScreenId="f93cbca8-ed59-4216-b9c5-d69a76feb8eb" ContentHash="DM_kKSxqp0i5uYvC4Yz14Q" CvElementArea="1254, 275, 23, 23" CvType="CloseButton" DesignTimeRectangle="1260, 277, 12, 21" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' parentid='el-id-8904-6' tag='I' class='far fa-times inline text-center text-xl text-gray-600' aaname='' /&gt;" Guid="4c2bf24f-95b8-4e59-a628-55efd89ae639" InformativeScreenshot="afce7580b78d29fe89b51c3d872bbdb2.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/XD6Pqiq48EixRQL-srx82Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CVScreenId="f93cbca8-ed59-4216-b9c5-d69a76feb8eb" CvElementArea="661, 274, 26, 25" CvTextArea="671, 281, 5, 12" CvType="Icon" DesignTimeRectangle="662, 275, 24, 25" Guid="dc9f377e-c257-4935-bf94-8f0aaabd40db" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGbSURBVEhLtZW/asJQFMbdOrpl7ObYN3DrGzhm6xv4Bh1diijBikNwCmRwUHAJTtKtFMHgEqRDcHEo4lAEuefmKzEN+XNvcjOY4Vvud8753X/n3gbYEXWqkR+4t6oDLh6CHzfSReIXqBQQnFagRRts0AB7y2nwCLbog5/EvAoAD9x5BuunChoa2LQDmrbAjIdkvK+BOUsEQo0iwNUD2c1U8gz8V0zExc1OwjYRXMW4HMADj4sbOkix/FDByQQZMcQSVpIBBFs9Chx2wM+5Qv47aKaDZl2Q72dBZws0DCFN0DbrpQAfoPF/0C5bPBR3Wsm+O5+CH+xeIm/cBZcC9t0owOxlAqoCwFyQGfoaaC8B8NVTlLx2JclHBF+dBFAUs25H/iqZQAKwRXpGmwRAG4kfKt4F2yoCtEAHSWJVwOFVBShZwaEHNtLARk+gb4kfqnQFijMA88E9C9xzhbseq/QMlLcoTi6chOIWKftgnnp/5kvBV/eBopNv3TrRwCa63FN3cqia36Kb6n1NY9X5H6RU448mUR1/8j1UO+APlhxlg7gYEkgAAAAASUVORK5CYII=" SearchSteps="CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NCheckState.Target>
+                                </uix:NCheckState>
+                              </Sequence>
+                            </ui:InterruptibleDoWhile.Body>
+                            <ui:InterruptibleDoWhile.Condition>
+                              <Literal x:TypeArguments="x:Boolean" DisplayName="Literal" sap2010:WorkflowViewState.IdRef="Literal`1_1" Value="True" />
+                            </ui:InterruptibleDoWhile.Condition>
+                          </ui:InterruptibleDoWhile>
+                          <If Condition="[ExitLoop]" sap:VirtualizedContainerService.HintSize="1528,449" sap2010:WorkflowViewState.IdRef="If_1">
+                            <If.Then>
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,222" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Boolean">[ExitLoop]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                                <ui:Continue sap:VirtualizedContainerService.HintSize="434,48" sap2010:WorkflowViewState.IdRef="Continue_5" />
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,89" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                          <Sequence DisplayName="Get Answer" sap:VirtualizedContainerService.HintSize="1528,1000" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '解析'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_58" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c55ca7b51f6ee3920117" CVScreenId="1af974b1-b63b-43e7-9fd2-1428d0faab61" ContentHash="gijpOutLT0Wx4cBO1GCCHg" DesignTimeRectangle="72, 184, 66, 36" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='tab-solution' tag='DIV' type='' class='el-tabs__item is-top' aaname='解析' check:innerText='解析' /&gt;" Guid="e1da6bdd-338d-49ed-a86b-92b9ff8c1134" InformativeScreenshot="2134b92b4a1487499608ee501cc9e6bb.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/WdcmNs2kwEGkulCfPPrzeA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target DesignTimeRectangle="7, 184, 66, 36" ElementType="Text" FuzzyAccuracy="0.81" FuzzySelectorArgument="&lt;webctrl id='tab-exercise' tag='DIV' type='' class='el-tabs__item is-top is-active' aaname='练习' check:innerText='练习' /&gt;" Guid="7701679d-9246-4243-b9bc-cfcb518d4acf" SearchSteps="FuzzySelector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''查看答案''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_59" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Version="V4">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c55ca7b51f6ee3920117" CVScreenId="f253dea0-0d2e-46bc-ad0c-241ec871782f" CvElementArea="23, 251, 93, 41" CvType="Button" DesignTimeRectangle="24, 252, 90, 38" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='left-solution-content' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='left-solution-content' tag='BUTTON' type='button' class='font-medium whitespace-nowrap  rounded border focus:ring-2 focus:outline-none  text-success-700 bg-white border-gray-300 hover:bg-gray-100 focus:ring-primary-500 focus:ring-offset-1  px-4 py-2 text-sm inline-flex items-center justify-center' aaname='查看答案' check:innerText='查看答案' /&gt;" Guid="29d7c762-d12e-48c7-a143-52b4b150e4b1" InformativeScreenshot="858c08068c5ebe53822de99b37df5c5a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                            <uix:NGetText DisplayName="Get Text '答案'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NGetText_14" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" TextString="[Codes]" Version="V4">
+                              <uix:NGetText.Target>
+                                <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c55ca7b51f6ee3920117" CVScreenId="4168d0d7-7571-44ca-beac-991ccea7144f" ContentHash="hNMm1b6DjUS2XfBSY4hK7A" CvElementArea="55, 367, 585, 60" CvType="InputBox" DesignTimeRectangle="56, 370, 580, 56" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='left-solution-content' tag='PRE' type='' class='code-solution overflow-x-auto select-none' /&gt;" Guid="0508c4bf-1f8f-49e5-822a-bdcd8c9e3269" InformativeScreenshot="2dbc140cf068861196192e89ab1cbe05.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/9Lho3FBF4Eu5nuKOUj_Tpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target DesignTimeRectangle="56, 326, 580, 28" FuzzyAccuracy="0.7" FuzzySelectorArgument="&lt;webctrl type='' parentid='left-solution-content' tag='DIV' class='explain-caption flex items-start justify-between mb-4' aaname='' check:innerText='答案' /&gt;" Guid="c2be8f27-0960-41fc-9553-12d4825108f3" SearchSteps="FuzzySelector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NGetText.Target>
+                            </uix:NGetText>
+                            <uast:FindAndReplace DisplayName="Handle Char Question" sap:VirtualizedContainerService.HintSize="416,267" sap2010:WorkflowViewState.IdRef="FindAndReplace_1" MatchCase="False" ReplaceWith="[[" Result="[Codes]" Source="[Codes]" ValueToFind="[" />
+                          </Sequence>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1528,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[Codes]" />
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="MultiLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1528,250" sap2010:WorkflowViewState.IdRef="NTypeInto_16" InteractionMode="HardwareEvents" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Text="[Codes]" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c55ca7b51f6ee3920117" DesignTimeRectangle="682, 220, 718, 806" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='CodeMirror-scroll' parentid='app' tag='DIV' /&gt;" Guid="cffd9da6-730a-4555-b490-0d4d5e7f46ba" InformativeScreenshot="bf276c5233d9469be1cd7b3ef13d1812.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive" />
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '提交'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1528,225" sap2010:WorkflowViewState.IdRef="NClick_67" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f8425315ecd937bfb77a88d" CVScreenId="5a4334f7-eacd-41a2-b9e0-aa61c83dbf60" ContentHash="MHjWdfON0km-mSvfhvbseg" CvElementArea="1267, 989, 77, 41" CvType="Button" DesignTimeRectangle="1285, 999, 40, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='提交' class='px-1.5' parentid='app' tag='SPAN' /&gt;" Guid="e0039af6-8895-4f84-8ee0-acda16eaad86" ImageBase64="" InformativeScreenshot="07cde005e91623c89cc4053d9f74596e.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/ybf705hybU2WVKOcBEdueg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="5a4334f7-eacd-41a2-b9e0-aa61c83dbf60" CvElementArea="1267, 989, 77, 41" CvType="Button" DesignTimeRectangle="1268, 990, 74, 38" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='提交' parentid='app' tag='BUTTON' type='button' /&gt;" Guid="e77356f3-8176-474d-ad2d-e10fb9f30b2e" SearchSteps="Selector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                            <uix:NClick.VerifyOptions>
+                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionOptions.Retry>
+                                <uix:VerifyExecutionOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionOptions.Timeout>
+                              </uix:VerifyExecutionOptions>
+                            </uix:NClick.VerifyOptions>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </uix:NClick>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '下一项(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1528,218" sap2010:WorkflowViewState.IdRef="NClick_61" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a25149ec-5e96-4936-817a-775e7d03ec5d" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/v9o1l2x9s0y4x8k171ob" CVScreenId="05072058-99b0-450c-bc7c-11ea794548f9" ContentHash="QbS-s1qbsUCCUoYUsvOlvA" CvElementArea="1142, 408, 103, 43" CvTextArea="1161, 422, 44, 15" CvTextArgument="T-JH" CvType="Button" DesignTimeRectangle="1145, 411, 98, 38" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='el-id-8256-11' tag='BUTTON' type='button' class='font-medium whitespace-nowrap  rounded border focus:ring-2 focus:outline-none  text-blue-700 border-transparent bg-blue-100 hover:bg-blue-200 focus:ring-primary-500  focus:ring-offset-1 px-4 py-2 text-sm inline-flex items-center justify-center' aaname='下一项 ' check:innerText='下一项' /&gt;" Guid="e0393bf6-2dc7-4797-b5c3-9e8cee313d79" InformativeScreenshot="4daa62721989779b29f7f053de363170.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/BAbYRgkeMkuvOoqgoRJEuA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                            </uix:NClick.Target>
+                            <uix:NClick.VerifyOptions>
+                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionOptions.Retry>
+                                <uix:VerifyExecutionOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionOptions.Timeout>
+                              </uix:VerifyExecutionOptions>
+                            </uix:NClick.VerifyOptions>
+                          </uix:NClick>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c52411299f6ecd1de662" CVScreenId="14a1c5af-adfb-4373-b4f1-908039b6d659" ContentHash="wXEDob4SnU6kLcwZQ2es4w" DesignTimeRectangle="1317, 733, 58, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl aaname='下一项 ' parentid='app' tag='DIV' /&gt;" Guid="b0cd97c4-6eab-41ab-92fb-9fe7e3278ead" ImageBase64="" InformativeScreenshot="efb272285a216bfd4984d4d629264a22.png" Reference="oaf0agdCKEWwxCNN9Hr6CQ/AFU9_8OsYUS7-S3BwmZldg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive" />
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                  </Sequence>
+                </ui:InterruptibleDoWhile.Body>
+                <ui:InterruptibleDoWhile.Condition>
+                  <Literal x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="Literal`1_2" Value="True" />
+                </ui:InterruptibleDoWhile.Condition>
+              </ui:InterruptibleDoWhile>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, 1072, 1936, 1048" BrowserType="Chrome" ContentHash="0HHzDuqyY02L1UaSWtve6Q" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAHRAAAB0QEMkUzzAAAAB3RJTUUH5QkNFC0SvZu6NgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMqSURBVFhHzZbPaxNREMdzU0F7ExRvol5EoTRvQ62HotCrp7bWf8GTIognFUFBPAn+qpZS96XV0INYexPqD0y0FKuoIB48tBSb9Ndskm2bpMmTed1u8ua9dtdKql/4wLIz82Z236+JREKKx+Ya7KjTFWfwkDMYtRlkOIMi4j2Pcgbd8ahzuqdlZheN37T6rOwhbkEPZ+ByBiIkrh2FR/GYc5COF1qJ5skdnMEtzqBkSBCWIrfgZm+r2E7H31BYOWfwxTCgQn/LKvS9gZTd5O6leYwaiC40enNKB1EYOe+K3GRZuNNlkby8qNkNTPbH5o/SfIrwy4OSP2/PiqlkSVBNj5XE8Jmc5k+L6GX5PTSvFM4TZ/DJECRJnHTE9ycFUVmhqauqlIX4OVwUg22OFl/DGK4vmj/iLTjqLOk/BqKQrWjJfgwWJPhcK/TFGDpOlYWrSnK51TZY7QMtoCTA3/2iq/q75bS8U6cFY+g4PhbklKnw9rnuSAoIWnBrCzOwAAbCZnB3NXlsriHokMHfOX5nKXBQBH3Qd+MpkOTliYnHq8G4VXRGvLOdGrYEm8EDXP14iWjGWuIxEC/P5n0GjuvbDN/V+mAM9TGQwgJmDAZ1cLILnp3Kaj74rlZh1gtnkMYCCgaDQr0KsBks/xcF/PMpCFyEdSxALsJug0GhbgVYcD+CPZxmINSrgLgF7ZHE4cxOPBapsRbsemo11KEXMNSZU3zCHMWYW94H2EAaHBRKS9XrOHlFv5BS1xZ9ezFf0ewGuv3b0OsBscWmTj7pj9Xr1s2U5RW8Zhtqz4rFmWqBvz6UtHhCIc5gv18ACrtXg6PP20uunwBVLgqRHi9JyqRDe3XB1eIJN5TkKK8lSxmcfbAlC9K3x8taHCF5+4DYRvNLYZfCGUwYgnzeXHTF7NcVpQ3D58znFTFyLq/5qzhTfc2z+2heRdg6Y/eqB6skTjhyN+D8P23Vb0cDE7xp/gjNZ1SiMbebM3htGGSzJNdtx9cTzhN2r0FnRAB40V1fd87DCCvHBvIPC8ljt6Nttb+Rd2J24vnNLXiPN5n3hUhavovCPZtBh3/ChdBv7ey5bUeqTp4AAAAASUVORK5CYII=" InformativeScreenshot="96d42c6759461a075c87acb3cbad5813.jpg" Reference="oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA" Selector="&lt;html app='chrome.exe' url='https://sxgxy.alphacoding.cn/courses/11315/learn/l2e4y99jpwrdio240782' /&gt;" Url="https://sxgxy.alphacoding.cn/courses/11315/learn/l2e4y99jpwrdio240782" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
     </Sequence>
   </Sequence>
 </Activity>

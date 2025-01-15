@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DM_kKSxqp0i5uYvC4Yz14Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c55ca7b51f6ee3920117" CVScreenId="f93cbca8-ed59-4216-b9c5-d69a76feb8eb" CvElementArea="1254, 275, 23, 23" CvType="CloseButton" DesignTimeRectangle="1260, 277, 12, 21" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' parentid='el-id-8904-6' tag='I' class='far fa-times inline text-center text-xl text-gray-600' aaname='' /&gt;" Guid="4c2bf24f-95b8-4e59-a628-55efd89ae639" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f93cbca8-ed59-4216-b9c5-d69a76feb8eb" CvElementArea="661, 274, 26, 25" CvTextArea="671, 281, 5, 12" CvType="Icon" DesignTimeRectangle="662, 275, 24, 25" Guid="dc9f377e-c257-4935-bf94-8f0aaabd40db" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGbSURBVEhLtZW/asJQFMbdOrpl7ObYN3DrGzhm6xv4Bh1diijBikNwCmRwUHAJTtKtFMHgEqRDcHEo4lAEuefmKzEN+XNvcjOY4Vvud8753X/n3gbYEXWqkR+4t6oDLh6CHzfSReIXqBQQnFagRRts0AB7y2nwCLbog5/EvAoAD9x5BuunChoa2LQDmrbAjIdkvK+BOUsEQo0iwNUD2c1U8gz8V0zExc1OwjYRXMW4HMADj4sbOkix/FDByQQZMcQSVpIBBFs9Chx2wM+5Qv47aKaDZl2Q72dBZws0DCFN0DbrpQAfoPF/0C5bPBR3Wsm+O5+CH+xeIm/cBZcC9t0owOxlAqoCwFyQGfoaaC8B8NVTlLx2JclHBF+dBFAUs25H/iqZQAKwRXpGmwRAG4kfKt4F2yoCtEAHSWJVwOFVBShZwaEHNtLARk+gb4kfqnQFijMA88E9C9xzhbseq/QMlLcoTi6chOIWKftgnnp/5kvBV/eBopNv3TrRwCa63FN3cqia36Kb6n1NY9X5H6RU448mUR1/8j1UO+APlhxlg7gYEkgAAAAASUVORK5CYII=" SearchSteps="CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="afce7580b78d29fe89b51c3d872bbdb2.png" xmlns="">0845DXD1teEC9qjf5nBllmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

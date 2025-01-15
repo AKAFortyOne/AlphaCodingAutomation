@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Course UiPath 2024 - Level 1 RPA Developer  Udemy",
+  "Type": "App",
+  "Id": "u0ZyqCjMl0y69z-cKW6kTA",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/u0ZyqCjMl0y69z-cKW6kTA",
+  "Created": "2025-01-12T14:00:01.864983Z",
+  "Updated": "2025-01-12T14:00:01.864983Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

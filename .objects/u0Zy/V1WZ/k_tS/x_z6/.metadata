@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Python 程序设计基础授课 阿尔法官方时…",
+  "Type": "Element",
+  "Id": "x_z6auIBHECxrRco1ArHTg",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/x_z6auIBHECxrRco1ArHTg",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "Created": "2025-01-14T03:50:16.0345682Z",
+  "Updated": "2025-01-14T03:50:16.0345682Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

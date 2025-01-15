@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wXEDob4SnU6kLcwZQ2es4w" Reference="oaf0agdCKEWwxCNN9Hr6CQ/AFU9_8OsYUS7-S3BwmZldg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c52411299f6ecd1de662" CVScreenId="14a1c5af-adfb-4373-b4f1-908039b6d659" DesignTimeRectangle="1317, 733, 58, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl aaname='下一项 ' parentid='app' tag='DIV' /&gt;" Guid="b0cd97c4-6eab-41ab-92fb-9fe7e3278ead" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="efb272285a216bfd4984d4d629264a22.png" xmlns="">0xBm0LjEqok-Snn0GNOszig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

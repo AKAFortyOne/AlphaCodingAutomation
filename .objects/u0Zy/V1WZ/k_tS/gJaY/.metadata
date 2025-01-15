@@ -1,0 +1,14 @@
+﻿{
+  "Name": "python",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "gJaYIOvM_Ei_iOl7vBC_QQ",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/gJaYIOvM_Ei_iOl7vBC_QQ",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "Created": "2025-01-14T12:19:25.6827194Z",
+  "Updated": "2025-01-14T12:19:25.6827194Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -16,7 +16,7 @@
   "UiPath.UIAutomationNext.Activities.ApplicationCard.WebDriverAutoDownload": "True",
   "UiPath.UIAutomationNext.Activities.ApplicationCard.UserDataFolderMode": "Automatic",
   "UiPath.UIAutomationNext.Activities.ApplicationCard.UserDataFolderPath": "",
-  "UiPath.UIAutomationNext.Activities.ApplicationCard.OpenBrowserTimeoutSeconds": "60",
+  "UiPath.UIAutomationNext.Activities.ApplicationCard.OpenBrowserTimeoutSeconds": "15",
   "UiPath.UIAutomationNext.Activities.KeyboardEvents.ClickBeforeMode": "Single",
   "UiPath.UIAutomationNext.Activities.KeyboardEvents.EmptyFieldMode": "SingleLine",
   "UiPath.UIAutomationNext.Activities.KeyboardEvents.DelayBetweenKeys": "0.02",
