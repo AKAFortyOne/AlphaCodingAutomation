@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QbS-s1qbsUCCUoYUsvOlvA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/v9o1l2x9s0y4x8k171ob" CVScreenId="05072058-99b0-450c-bc7c-11ea794548f9" CvElementArea="1142, 408, 103, 43" CvTextArea="1161, 422, 44, 15" CvTextArgument="T-JH" CvType="Button" DesignTimeRectangle="1145, 411, 98, 38" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='el-id-8256-11' tag='BUTTON' type='button' class='font-medium whitespace-nowrap  rounded border focus:ring-2 focus:outline-none  text-blue-700 border-transparent bg-blue-100 hover:bg-blue-200 focus:ring-primary-500  focus:ring-offset-1 px-4 py-2 text-sm inline-flex items-center justify-center' aaname='下一项 ' check:innerText='下一项' /&gt;" Guid="e0393bf6-2dc7-4797-b5c3-9e8cee313d79" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4daa62721989779b29f7f053de363170.png" xmlns="">09eTOg9dXCEeY7R-DRepRIA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

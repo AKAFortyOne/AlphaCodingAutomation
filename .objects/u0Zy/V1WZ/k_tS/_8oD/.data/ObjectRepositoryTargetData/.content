@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XIMzwNA3o0i75FqpjJPonA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="doubao.com/chat" CVScreenId="38e98c41-4884-4d46-ba71-33eed1ade224" CvTextArea="790, 983, 145, 17" CvTextArgument="$ôA @ / )UI¥R5A8" CvType="Text" DesignTimeRectangle="732, 980, 569, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='semi-input-textarea semi-input-textarea-autosize' placeholder='发消息、输入 @ 或 / 选择技能' aaname='' /&gt;" Guid="28a57929-f32d-425e-ac0e-7c541cafb453" ScopeSelectorArgument="&lt;html app='chrome.exe' title='豆包 - 字节跳动旗下 AI 智能助手' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="708, 964, 800, 56" FuzzySelectorArgument="&lt;webctrl type='' class='chat-input-Ku9BCZ grid-container-giDNIl' parentid='root' tag='DIV' aaname='' /&gt;" Guid="1d3302ef-abed-43f5-bd19-b168012f5a0c" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8c193932fedf484c1c375180aca48076.png" xmlns="">0tCBeEPRLT0iYgYdqEyv4Hw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

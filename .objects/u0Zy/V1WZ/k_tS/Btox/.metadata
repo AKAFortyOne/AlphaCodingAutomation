@@ -1,0 +1,13 @@
+﻿{
+  "Name": "任务与要求得分310",
+  "Type": "Element",
+  "Id": "BtoxuK5grUi78nFSyF-rsg",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/BtoxuK5grUi78nFSyF-rsg",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "Created": "2025-01-14T04:34:22.1821425Z",
+  "Updated": "2025-01-14T04:34:22.1821425Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

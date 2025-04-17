@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0tm1TaQPTkm1G15mXD_7Lg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/classroom" DesignTimeRectangle="260, 414, 385, 148" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='alpha-main-container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='px-6 flex-1 flex flex-col justify-between' parentid='alpha-main-container' tag='DIV' aaname='' check:innerText='Python 程序设计基础&amp;#xA;&amp;#xA;授课: 阿尔法官方&amp;#xA;&amp;#xA;时间: 2022-05-01 至 2042-08-31' /&gt;" Guid="91f95fc2-71a6-44db-8c66-4990df19c175" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fea228a37315b691bc895fd7920efaca.png" xmlns="">0Nub3f7429ESnlZcDnW3QzQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "SVG",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "2GoizUVxNU-Xz7BVPDk9kQ",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/2GoizUVxNU-Xz7BVPDk9kQ",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "Created": "2025-01-14T04:41:08.1189916Z",
+  "Updated": "2025-01-14T04:41:08.1189916Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
