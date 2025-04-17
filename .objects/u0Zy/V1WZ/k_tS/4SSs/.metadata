@@ -1,0 +1,14 @@
+﻿{
+  "Name": "查看答案",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "4SSsxGX6F025OtzgA02d6g",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/4SSsxGX6F025OtzgA02d6g",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "Created": "2025-04-17T07:45:09.15396Z",
+  "Updated": "2025-04-17T07:45:09.15396Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CL2G7JeINUWEQNI6f0t2-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/courses/12182/learn/28pn34cj0vffl0mcbyjv" CVScreenId="4a96d2aa-d989-4846-a573-4a4387f0e150" CvElementArea="1274, 994, 71, 37" CvTextArea="1293, 1004, 30, 15" CvTextArgument="152" CvType="Button" DesignTimeRectangle="1290, 1003, 37, 18" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='提交' class='px-1.5' parentid='app' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='提交' class='px-1.5' parentid='app' tag='SPAN' type='' check:innerText='提交' /&gt;" Guid="a51ca624-412b-4888-868a-f6ea98a5d14b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACkAAAAWCAYAAABdTLWOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC0SURBVEhL7ZBBCsMwDATzmb6sz88jWnowLIPWaxsfTMnCkES2pCHX631/Tudi4UQeyV38l+Qv+u7CPjdjhmVJnvfqs3dIlGSqmsb1pXCvEiUbOsgNHa3zOzEl2Yb3UvWx1qtXDEk6gUTrqXpnZkZJLhqJ3uccncG6I0o23DBXJ5TkeY9lSf0TGvaxJ92pWJLUZaNLNTxLLEu2Z1qqYY13HVGyysi5vjvY44iSJ/BI7uKR3MUXjihSRqY9aroAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4a96d2aa-d989-4846-a573-4a4387f0e150" CvElementArea="1197, 993, 71, 38" CvTextArea="1216, 1004, 29, 16" CvTextArgument=".ī(]" CvType="Button" DesignTimeRectangle="1214, 1003, 37, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl class='px-1.5' parentid='app' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='px-1.5' parentid='app' tag='SPAN' type='' aaname='运行' check:innerText='运行' /&gt;" Guid="560cfa77-8c94-44fb-a8f0-c1adaf999d4e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACkAAAAWCAYAAABdTLWOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVEhL7Y5RCgQhDEO933zvCfb+Z5jFD0FCmqYzfshi4IG2aZt2fb737jQs7MgJuYr/CNmF/0jRbCT0R6QhO5WFb2YirJCdytGK18EO2XE1+3HHE2RIdnjuYQ37jnCOIUMOcNn8x15Wz3qMckh2AGtD6Iv8GctDjjfzocelFDITm2GoHqMUUoEe/Ls9RhpyLKwuVn7VY8iQuMyRO4u3FDLkLpyQqzghV/EDJF7PPFmiT00AAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2bb496f703a3e8c2b65b5420b466dfe1.png" xmlns="">03GLA4Pxmn0-PUpTybdmCKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

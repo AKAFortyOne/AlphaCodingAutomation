@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L6r_bOZUikueGaAPHPlyYQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/courses/12182/learn/28pn34cj0vffl0mcbyjv" DesignTimeRectangle="51, 346, 589, 310" DesignTimeScaleFactor="0.8999999761581421" FullSelectorArgument="&lt;webctrl parentid='left-solution-content' tag='PRE' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='left-solution-content' tag='PRE' type='' class='code-solution overflow-x-auto select-none' /&gt;" Guid="9a7e74bd-e4c0-469d-adef-d1101a4b0e46" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="51, 307, 589, 25" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='left-solution-content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='left-solution-content' tag='DIV' class='explain-caption flex items-start justify-between mb-4' aaname='' check:innerText='答案' /&gt;" Guid="1c415284-de38-42f9-9dc4-696b1ce3ab7e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAlEAAAAdCAYAAACKeTngAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF+SURBVHhe7doxbsMwDEDR3Kpzj9D7X6JD16KFBxcJTUqWkhhO8YYHJKQlePwIcvn8/voBAGDMJQ4AAOgTUQAAE0QUAMAEEQUAMEFEAQBMOCSi3t4/NjMAgFeWRtQSPVX4VPOe2XMAAGe0iaheQFW76/2oeA8AwDNVDZLNKmVERb3duo/39cycAQC4R9UxcdZyE1ExmOIu+9wy8iIAAEe6jqbRgFr8RVR2sAqq1mxGvAcA4Aj3NMlNRMXl9Tzu4/eotW/tAACO8pCIysTL4veW6qVG7gAAeJbYKrFZetKIal3S2mXii42eBwB4tKxJslnLJqLWgzF6MtnZKD4Tn41zAIAjZB2SzSrNP5b3jJzZ+xwAwCvY/BK1iL8mVWbOVOI7AACcWRlRcRbteWZ9TiwBAP/NUyIqi6b1c7YDAHg1ZUTtUZ2J9637bNY6AwBwVmVExVm055l7ngcAOLM0ogAAaBNRAAATRBQAwAQRBQAwQUQBAEwQUQAAE0QUAMCEX9ESri9dB4u/AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="40f4012a6ca94bc9b6aa9338321c3f48.png" xmlns="">0xRZML-qEF0euCcBfxqiV1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

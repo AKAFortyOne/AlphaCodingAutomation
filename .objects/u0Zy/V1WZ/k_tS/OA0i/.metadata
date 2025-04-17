@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click ''登录''",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "OA0i4zGL90uvgpa-uP8I7A",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/OA0i4zGL90uvgpa-uP8I7A",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "Created": "2025-04-17T07:41:28.8605784Z",
+  "Updated": "2025-04-17T07:41:28.8605784Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

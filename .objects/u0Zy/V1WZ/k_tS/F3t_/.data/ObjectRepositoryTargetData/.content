@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-lyh_XWYnECqHYYA9yQ7sg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/login" CVScreenId="fc6db02d-3710-4c69-b77c-e9575225dd82" CvElementArea="348, 468, 281, 36" CvType="InputBox" DesignTimeRectangle="360, 470, 256, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='n-input__input-el' placeholder='请输入用户名' aaname='' /&gt;" Guid="6eea017f-0b65-4264-9854-ecff4721b356" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="fc6db02d-3710-4c69-b77c-e9575225dd82" CvTextArea="447, 421, 66, 19" CvTextArgument="Rklae5" CvType="Text" DesignTimeRectangle="448, 420, 64, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='微信登录' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='微信登录' tag='SPAN' type='' class='n-tabs-tab__label' check:innerText='微信登录' /&gt;" Guid="2407b328-02a0-4492-b92d-ebc51a7b197e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cc3f9c31448ee5c8cdeb0cfc63887eea.png" xmlns="">05KF8xdtg-0GZ5MYqFFoNUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

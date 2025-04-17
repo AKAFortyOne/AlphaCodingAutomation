@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ff_AGIG2MEybaFGEYgaS6Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/login" CVScreenId="fc6db02d-3710-4c69-b77c-e9575225dd82" CvElementArea="347, 622, 283, 37" CvType="Button" DesignTimeRectangle="348, 624, 280, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='__button-dtqfrq-ilmmp n-button n-button--primary-type n-button--medium-type n-button--block' aaname=' 登录 ' check:innerText='登录' /&gt;" Guid="7ce0cb88-ed5d-4c5a-8683-020c3621d234" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="fc6db02d-3710-4c69-b77c-e9575225dd82" CvElementArea="347, 622, 283, 37" CvType="Button" DesignTimeRectangle="474, 634, 28, 14" ElementType="Text" FullSelectorArgument="&lt;webctrl class='n-button__content' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='n-button__content' tag='SPAN' type='' aaname=' 登录 ' check:innerText='登录' /&gt;" Guid="f6107260-af30-442e-aa1c-6f904c9b4539" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1e3a3cf34963410edc9052f498099dac.png" xmlns="">00oovY7wk2k6n4LEtmsXWfw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

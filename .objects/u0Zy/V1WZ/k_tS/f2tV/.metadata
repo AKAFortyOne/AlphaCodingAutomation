@@ -1,0 +1,14 @@
+﻿{
+  "Name": "解析(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "f2tVZAmILEC6E9w54QLWTw",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/f2tVZAmILEC6E9w54QLWTw",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "Created": "2025-04-17T07:39:00.2804775Z",
+  "Updated": "2025-04-17T07:39:00.2804775Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

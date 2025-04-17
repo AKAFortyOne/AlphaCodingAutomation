@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wlj8x8sUYUWIZLmFXHK30w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/courses/12182/learn/28pn34cj0vffl0mcbyjv" CVScreenId="641dd3ee-f05b-4072-8fb0-a39e0d35679b" CvTextArea="83, 188, 25, 13" CvTextArgument="3FF" CvType="Text" DesignTimeRectangle="66, 179, 60, 32" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tab-solution' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tab-solution' tag='DIV' type='' class='el-tabs__item is-top' aaname='解析' check:innerText='解析' /&gt;" Guid="8ab289a2-a84f-4d5a-826f-11a94aba7857" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAAAkCAYAAAA5DDySAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADkSURBVGhD7Zm7CsJQEAXz/5Vg5b8JNmoKUQsRwSaSImGZLCTFPYXsCQzZ172yk9JuKP50l/42VKabTDyer+H9+ZZjFnA8XRfNCliABViABViABViABVhAawG7/WGRE/Z5B8+y3gKpAC4bl+BC7PGsCokALjO9SVbneTUyAYQzJM5smW+FRMBI9kX55mzsZ/A3WiAXsGWxbCbew7tbIhfAeMoZZzXGCuQC1ojza7ECqYAszvJYY495ayQC4jL80rGf1dhj3hqJgH/CAizAAizAAizAAizAAsa/x8/9vRyzgKpPeQE/20iN96QS08EAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="641dd3ee-f05b-4072-8fb0-a39e0d35679b" CvElementArea="9, 177, 58, 35" CvType="Button" DesignTimeRectangle="7, 179, 60, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tab-exercise' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tab-exercise' tag='DIV' type='' class='el-tabs__item is-top is-active' aaname='练习' check:innerText='练习' /&gt;" Guid="8c992058-1d0c-4361-8761-11b65ea677ac" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAAAkCAYAAAA5DDySAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADoSURBVGhD7ZnBCsIwDIb7aD6pTyZ4UXcQ9SAy8DLpYBBDE9vMVCH/B4E1TWH/192WUkrTUhFJVMBxOIerNwFRuN7u02N8zhVSwG5/ggAIgAAIgAAIgAAIgABXAZutvl7I/U/1TboIoC/Nw7SGapmtwV0AD897JTQpUt9KFwE0UMvNl2b4ei3uAjKlr4A/12I5o/ETAVJJ0H1tzoK7AC0kX1MsZyy4CyjBb5OGKoWmaHsWugko3aj0rFE7V4u7ACm01OdQcdLMGtwF/DsQAAEQAAEQAAEQAAEQEFVA/j1+GC5zhRRACS/gBcOgHjfpfdV3AAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c832a57c875da83ccf45d870f489fab1.png" xmlns="">0mWb9SE72lEiWJ8uRIe2EVQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

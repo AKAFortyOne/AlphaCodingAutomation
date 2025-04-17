@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="gEwzZza39Ei8031d2IlL_A" Reference="oaf0agdCKEWwxCNN9Hr6CQ/E6HEuGGSf0ibXAjQn2hHMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="doubao.com/chat/795495142349058" CVScreenId="9b0ce5fe-0918-4e8c-a216-95e720347c29" DesignTimeRectangle="717, 393, 782, 50" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='root' tag='DIV' /&gt;" Guid="621549bf-b4bc-49b0-a33b-637b8d3a9b45" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Python 程序运行与调试 - 豆包' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="c09c62af38a6492a404d78c8060b15e9.png" xmlns="">0vWBIbEG5AUuanR4z5AWMbg</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">None</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

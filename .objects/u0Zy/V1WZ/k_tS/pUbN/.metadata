@@ -1,0 +1,14 @@
+﻿{
+  "Name": "提交",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "pUbNVlzcUECgI8YM7njI8g",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/pUbNVlzcUECgI8YM7njI8g",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "Created": "2025-04-17T07:51:24.1359395Z",
+  "Updated": "2025-04-17T07:51:24.1359395Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

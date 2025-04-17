@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kYRX0PRewUK_umkUqdaxww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/courses/12182/learn/8g03y2aq9lfhfyfoblau" CVScreenId="01049638-0e5e-446f-9811-3a6a33887326" CvTextArea="1275, 905, 53, 15" CvTextArgument="T-Iñ &gt;" CvType="Text" DesignTimeRectangle="1276, 903, 51, 22" DesignTimeScaleFactor="0.8999999761581421" FullSelectorArgument="&lt;webctrl aaname='下一项 ' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='下一项 ' parentid='app' tag='DIV' type='' class='' check:innerText='下一项' /&gt;" Guid="5e708082-58f5-45ba-ad5c-48d2f90db35c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="01049638-0e5e-446f-9811-3a6a33887326" CvTextArea="1275, 905, 53, 15" CvTextArgument="T-Iñ &gt;" CvType="Text" DesignTimeRectangle="1119, 866, 216, 67" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H4' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H4' type='' class='lesson-nav-button w-full block rounded focus:ring-4 ring-offset-2 focus:outline-none p-2 pt-10 text-base text-gray-500 border border-1 border-transparent rounded hover:bg-gray-50 hover:text-primary-600 hover:border-gray-200 focus:border-gray-200 focus-in:text-primary-500 hover:underline' aaname='' check:innerText='下一项' /&gt;" Guid="10faaba9-ade0-43e3-b9bb-5e1967ac7b9a" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="43b3e999f8b8955ce502b9a894e7b5e3.png" xmlns="">03AU9rnhQakuu6pp_KTw59A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

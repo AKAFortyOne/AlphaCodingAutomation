@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click ''密码登录''",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ExE9d2zVcEeojG3jcz0Ayw",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/ExE9d2zVcEeojG3jcz0Ayw",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "Created": "2025-04-17T07:41:14.1850962Z",
+  "Updated": "2025-04-17T07:41:14.1850962Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
