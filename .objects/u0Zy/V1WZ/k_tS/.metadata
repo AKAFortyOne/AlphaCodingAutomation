@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Course UiPath 2024 - Level 1 RPA Devel(1)",
+  "Type": "Screen",
+  "Id": "k_tSkxYM7kGqq_K_evjDtA",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/V1WZKpqJHUuuAo3Kavz5zw",
+  "Created": "2025-01-14T03:41:41.9811996Z",
+  "Updated": "2025-01-14T03:41:41.9811996Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

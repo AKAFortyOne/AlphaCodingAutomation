@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6lyPIBoao0KFv4DAi4sP0g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c55ca7b51f6ee3920117" DesignTimeRectangle="682, 220, 718, 806" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='CodeMirror-scroll' parentid='app' tag='DIV' type='' aaname='' /&gt;" Guid="3c58f56c-d806-41ef-9dd7-8d35fbcd0b7a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="18d6cdb3-fbac-438c-bbb9-bfeb079be25a" DesignTimeRectangle="681, 184, 103, 36" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tab-0' tag='DIV' /&gt;" Guid="4efcfb8d-d2a1-4e12-8a02-52f04de754dc" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b030a39e466f74af954996166cefe790.png" xmlns="">00nK7jbTzckaH3ugCH2U1Ng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

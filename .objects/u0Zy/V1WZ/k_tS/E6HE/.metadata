@@ -1,0 +1,13 @@
+﻿{
+  "Name": "print(Hello Python)",
+  "Type": "Element",
+  "Id": "E6HEuGGSf0ibXAjQn2hHMg",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/E6HEuGGSf0ibXAjQn2hHMg",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "Created": "2025-01-14T12:34:00.3432105Z",
+  "Updated": "2025-01-14T12:34:00.3432105Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

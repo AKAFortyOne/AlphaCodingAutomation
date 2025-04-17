@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gijpOutLT0Wx4cBO1GCCHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c55ca7b51f6ee3920117" CVScreenId="1af974b1-b63b-43e7-9fd2-1428d0faab61" DesignTimeRectangle="72, 184, 66, 36" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='tab-solution' tag='DIV' type='' class='el-tabs__item is-top' aaname='解析' check:innerText='解析' /&gt;" Guid="e1da6bdd-338d-49ed-a86b-92b9ff8c1134" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="7, 184, 66, 36" ElementType="Text" FuzzyAccuracy="0.81" FuzzySelectorArgument="&lt;webctrl id='tab-exercise' tag='DIV' type='' class='el-tabs__item is-top is-active' aaname='练习' check:innerText='练习' /&gt;" Guid="7701679d-9246-4243-b9bc-cfcb518d4acf" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2134b92b4a1487499608ee501cc9e6bb.png" xmlns="">0ICZqff0uOku30CX1OiH66w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

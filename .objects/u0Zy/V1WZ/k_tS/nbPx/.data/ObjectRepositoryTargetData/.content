@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="InwOxeP740i31csgSfxQlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sxgxy.alphacoding.cn/courses/8180/learn/5f83c55ca7b51f6ee3920117" CVScreenId="6b617ea9-7030-43a0-8113-b8540a6481cd" CvTextArea="715, 228, 106, 17" CvTextArgument="print(&quot;Hello" CvType="Text" DesignTimeRectangle="716, 228, 43, 18" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='cm-builtin' parentid='app' tag='SPAN' type='' aaname='print' check:innerText='print' /&gt;" Guid="30f8950f-5195-41b7-b3c5-227164d9b1af" ScopeSelectorArgument="&lt;html app='chrome.exe' title='阿尔法编程' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6b617ea9-7030-43a0-8113-b8540a6481cd" CvElementArea="679, 184, 104, 37" CvTextArea="701, 197, 62, 12" CvTextArgument="program py" CvType="Button" DesignTimeRectangle="681, 184, 103, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='tab-0' tag='DIV' type='' class='el-tabs__item is-top is-active' aaname='program.py' check:innerText='program.py' /&gt;" Guid="9ae06c0c-f412-4543-901b-ca989a5407d6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="261ea7875302e77590ea76e4fce024e0.png" xmlns="">063SJM1Y0tEK_wLvXKHR-PQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

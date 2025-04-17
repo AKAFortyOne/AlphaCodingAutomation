@@ -1,0 +1,14 @@
+﻿{
+  "Name": "'课堂'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vPX3jPB1QUywTxTnRF6fxg",
+  "Reference": "oaf0agdCKEWwxCNN9Hr6CQ/vPX3jPB1QUywTxTnRF6fxg",
+  "ParentRef": "oaf0agdCKEWwxCNN9Hr6CQ/k_tSkxYM7kGqq_K_evjDtA",
+  "Created": "2025-01-14T04:37:10.0759173Z",
+  "Updated": "2025-01-14T04:37:10.0759173Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
